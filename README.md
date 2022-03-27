@@ -21,8 +21,8 @@ The [Configuration File](https://github.com/Fulminazzo/LightFight/tree/main/conf
 - a list of **ignored worlds**;
 - a list of **events** to be **disabled**;
 - **barriers** behavior.
-and [more](https://github.com/Fulminazzo/LightFight/wiki/Configuration)!
 
+and [more](https://github.com/Fulminazzo/LightFight/wiki/Configuration)!
 <p align="center">
     <img src="https://github.com/Fulminazzo/LightFight/blob/main/images/enable.png" alt="Enable Preview">
 </p>
