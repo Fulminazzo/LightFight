@@ -1,0 +1,152 @@
+####################################################################
+#                    config.yml LightFight file                    #
+####################################################################
+
+# If this option is set to true, the config.yml and messages.yml will
+# update every second. (No need to reload)
+auto-update: true
+
+# If set to true, the ct will trigger when a player hits another player.
+player-ct: true
+
+# If set to true, the ct will trigger when a player hits an entity and vice versa.
+entity-ct: false
+
+# The following entities will not be able to put the player in combat mode, even if
+# "entity-ct" is enabled. See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html for more.
+entity-whitelist: []
+
+# If set to false, when the player disables her/his pvp mode, she/he will not be able to
+# hit other players.
+pvp-backwards: true
+
+# If set to true, when the player disables her/his pve mode, she/he will not be able to
+# hit other entities.
+pve-backwards: false
+
+# If this is set to true, the player will be untagged if she/he gets a kill on everybody
+# who was still in combat with her/him.
+untag-player-on-death: false
+
+# Set to true to force player to autorespawn.
+auto-respawn: false
+
+# How much time (in seconds) should pass before the combat log ends.
+timer: 30
+
+# If enabled, the player will be killed when logging out.
+kill-on-quit: true
+
+# If enabled, the player will be killed when she/he will be kicked.
+kill-on-kick: true
+
+# Grace options section.
+grace:
+  # During grace period, the player will not be able to be hit by the specified
+  # entities for a while after logging in the server for the first time.
+  # In here you can specify how much time in minutes should last.
+  period: 0
+
+  # If true, players will not be able to hit the player during the grace period.
+  pvp: true
+
+  # If true, entities will not be able to hit the player during the grace period.
+  pve: false
+
+  # If true, the player won't be able to hit another player during the grace period.
+  # Conflicts with grace-deny-on-pvp.
+  prevent-pvp: true
+
+  # If true, the player won't be able to hit an entity during the grace period.
+  # Conflicts with grace-deny-on-pve.
+  prevent-pve: true
+
+  # If true, when the player tries to hit another player, she/he will lose the grace.
+  deny-on-pvp: false
+
+  # If true, when the player tries to hit an entity, she/he will lose the grace.
+  deny-on-pve: false
+
+# List of worlds to be ignored when tagging players.
+ignored-worlds: []
+
+# If set to false, when a player will pull towards herself/himself another user,
+# they will both be tagged.
+ignore-fishing-rod: false
+
+# If set to true, player in creative will not be tagged.
+ignore-creative: true
+
+# If set to true, player that are flying will be brought to ground.
+block-fly: true
+
+# A section to enable a ton of features.
+enable:
+  # If disabled, player will not be able to speak when tagged.
+  chat: true
+
+  # If disabled, player will not be able to change gamemode when tagged.
+  gamemode: false
+
+  # If disabled, player will not be able to open her/his inventory when tagged.
+  inventory: true
+
+  # If disabled, player will not be able to drop items when tagged.
+  drop: true
+
+  # If disabled, player will not be able to teleport when tagged.
+  teleport: false
+
+  # If disabled, player will not be able to teleport with enderpearls when tagged.
+  enderpearls: false
+
+# If this option is set to true, the player will not be able to enter WorldGuard's PvP deny zones.
+barriers: true
+
+# In here you can specify how to react when a user tries to enter a no PvP zone. There are three options:
+# - BLOCK: places block in the zone walls;
+# - KNOCKBACK: pushes the player back;
+# - NONE: does nothing but prevents to enter.
+barrier-type: KNOCKBACK
+
+# If barrier-type is set to BLOCK, here you can specify which block.
+barrier-block: BARRIER
+
+# If barrier-type is set to BLOCK, here you can specify the radius of the barrier.
+barrier-radius: 5
+
+# timer-message accepts four options:
+# - ACTIONBAR: show the timer on actionbar;
+# - BOSSBAR: show the timer on bossbar;
+# - PROGRESS: show the timer on actionbar as a progress;
+# - NONE: do now show the timer.
+timer-message: ACTIONBAR
+
+# The color of the bossbar (only 1.9+). See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html for more.
+bossbar-color: RED
+
+# The time of broadcast to be sent to players. It accepts:
+# - ACTIONBAR: show the broadcast on actionbar;
+# - BOSSBAR: show the broadcast on bossbar;
+# - MESSAGE: show the broadcast in chat;
+# - NONE: do now show the timer.
+broadcast-message: MESSAGE
+
+# If enabled, the player will glow in the supported versions.
+glow-enabled: true
+
+# The color of the glow. See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/ChatColor.html for more.
+glow-color: RED
+
+# List of commands enabled during combat.
+whitelisted-commands: []
+
+# List of potions to be removed when a player enters combat. See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html for more.
+potions:
+  - INVISIBILITY
+
+# List of projectiles to be ignored for combat. See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html for more.
+ignored-projectiles:
+  - ENDER_PEARL
+  - EGG
+  - SNOWBALL
