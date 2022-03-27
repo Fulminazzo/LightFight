@@ -8,7 +8,7 @@ LightFight is very simple: when a player gets hit by another entity and/or a pla
 
 <div align="center">
     <img src="https://github.com/Fulminazzo/LightFight/blob/main/images/timer.png" alt="Timer Preview">
-  <p style="line-height: 100px">A very unpractical use of the entry <b>timer</b>.</p>
+    <p style="line-height: 100px"><small>A very unpractical use of the entry <b>timer</b>.</small></p>
 </div>
 
 ## Config
