@@ -82,22 +82,22 @@ block-fly: true
 
 # A section to enable a ton of features.
 enable:
-  # If disabled, player will not be able to speak when tagged.
+  # If disabled, the players will not be able to speak when tagged.
   chat: true
 
-  # If disabled, player will not be able to change gamemode when tagged.
+  # If disabled, the players will not be able to change gamemode when tagged.
   gamemode: false
 
-  # If disabled, player will not be able to open her/his inventory when tagged.
+  # If disabled, the players will not be able to open her/his inventory when tagged.
   inventory: true
 
-  # If disabled, player will not be able to drop items when tagged.
+  # If disabled, the players will not be able to drop items when tagged.
   drop: true
 
-  # If disabled, player will not be able to teleport when tagged.
+  # If disabled, the players will not be able to teleport when tagged.
   teleport: false
 
-  # If disabled, player will not be able to teleport with enderpearls when tagged.
+  # If disabled, the players will not be able to teleport with enderpearls when tagged.
   enderpearls: false
 
 # If this option is set to true, the player will not be able to enter WorldGuard's PvP deny zones.
@@ -119,17 +119,17 @@ barrier-radius: 5
 # - ACTIONBAR: show the timer on actionbar;
 # - BOSSBAR: show the timer on bossbar;
 # - PROGRESS: show the timer on actionbar as a progress;
-# - NONE: do now show the timer.
+# - NONE: do not show the timer.
 timer-message: ACTIONBAR
 
 # The color of the bossbar (only 1.9+). See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html for more.
 bossbar-color: RED
 
-# The time of broadcast to be sent to players. It accepts:
+# The type of message of the broadcast to be sent to players. It accepts:
 # - ACTIONBAR: show the broadcast on actionbar;
 # - BOSSBAR: show the broadcast on bossbar;
 # - MESSAGE: show the broadcast in chat;
-# - NONE: do now show the timer.
+# - NONE: do not show the message.
 broadcast-message: MESSAGE
 
 # If enabled, the player will glow in the supported versions.
