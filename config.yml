@@ -74,10 +74,10 @@ ignored-worlds: []
 # they will both be tagged.
 ignore-fishing-rod: false
 
-# If set to true, player in creative will not be tagged.
+# If set to true, players in creative will not be tagged.
 ignore-creative: true
 
-# If set to true, player that are flying will be brought to ground.
+# If set to true, players that are flying will be brought to ground.
 block-fly: true
 
 # A section to enable a ton of features.
