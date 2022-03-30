@@ -1,6 +1,6 @@
 # LightFight
 
-LightFight is a combat log plugin created with the cross compatibility in mind. In fact, it can be used from 1.8 through 1.18 and more upcoming versions! In here you will find a simple list of the most important features, but I suggest you carefully read the [Wiki](https://github.com/Fulminazzo/LightFight/wiki) to better understand how the plugin works and behaves.
+LightFight is a combat log plugin created with the cross compatibility in mind. In fact, it can be used from 1.8 through 1.18 and more upcoming versions! In here you will find a simple list of the most important features, but I suggest you carefully read the [Wiki](https://github.com/Fulminazzo/LightFight/wiki) to better understand how the plugin works.
 
 ## Functioning
 
@@ -16,11 +16,11 @@ LightFight is very simple: when a player gets hit by another entity and/or a pla
 The [Configuration File](https://github.com/Fulminazzo/LightFight/tree/main/config.yml) is crucial to modify the plugin behaviour. In there you will find many available features that can be activated:
 - **auto update** of the config.yml file;
 - **PvE combat**: enable Combat Mode for entities;
-- **auto respawn** death;
+- **auto respawn** on death;
 - **grace period** for the player that just logged protecting from PvE and PvP;
 - a list of **ignored worlds**;
 - a list of **events** to be **disabled**;
-- **barriers** behavior.
+- **barriers**;
 
 and [more](https://github.com/Fulminazzo/LightFight/wiki/Configuration)!
 <p align="center">
@@ -46,4 +46,4 @@ LightFight also has a full list of messages that can be edited in the [messages 
 
 ## Integrations
 
-Both [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI) and [WorldGuard](https://enginehub.org/worldguard) are supported. Among the many [placeholders](https://github.com/Fulminazzo/LightFight/wiki/Placeholders) available of the plugin, WorldGuard can be used to **set barriers** where the user in combat mode cannot enter (this will only happen if the region has the flag **pvp** set to **deny**).
+Both [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI) and [WorldGuard](https://enginehub.org/worldguard) are supported. Not only the plugin offers many [placeholders](https://github.com/Fulminazzo/LightFight/wiki/Placeholders), but WorldGuard can be used to **set barriers** where the user in combat mode cannot enter (this will only happen if the region has the flag **pvp** set to **deny**).
