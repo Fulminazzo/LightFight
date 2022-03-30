@@ -44,7 +44,7 @@ invalid-path: "&cPath &4%path% &cnot found."
 invalid-value: "&cThat value is not valid for the path specified."
 type-not-found: "&cType &4%type% &cwas not found."
 grace-active: "&cYou cannot attack &4%player%&c while they are in grace."
-grace-prevent: "&cYuou cannot attack &4%entity%&c while you are in grace."
+grace-prevent: "&cYou cannot attack &4%entity%&c while you are in grace."
 
 enabled: "&aenabled"
 disabled: "&cdisabled"
