@@ -1,6 +1,6 @@
 # LightFight
 
-> 🇮🇹 Sei italiano? 🇮🇹 
+> Sei italiano?
 > Clicca [qui](https://github.com/Fulminazzo/LightFight-IT) per visualizzare la pagina in Italiano!
 
 LightFight is a combat log plugin created with the cross compatibility in mind. In fact, it can be used from 1.8 through 1.18 and more upcoming versions! In here you will find a simple list of the most important features, but I suggest you carefully read the [Wiki](https://github.com/Fulminazzo/LightFight/wiki) to better understand how the plugin works.
